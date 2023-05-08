@@ -1,0 +1,21 @@
+body {
+    background-image: url('Eh.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: bisque;
+    font-style: normal;  
+  }
+  th,
+  td {
+    border: 1px solid rgb(20, 20, 20);
+    padding: 8px;
+    text-align:center; 
+    background-color: #c1c8d1;
+    font-size: 20px;
+    color: black;
+    }

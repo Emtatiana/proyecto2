@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de la empresa</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <form id="miFormulario">
+      <h1>DATOS DE LA EMPRESA </h1>
+      <BR>
+        <table>
+          <tr>
+            <td>Estado académico actual:</td>
+            <td><input type="text" id="estadoActual"></td>
+          </tr>
+          <tr>
+            <td>Fecha de inicio de práctica:</td>
+            <td><input type="date" id="fechaInicio"></td>
+          </tr>
+          <tr>
+            <td>Horas planificadas:</td>
+            <td><input type="number" id="horasPlanificadas"></td>
+          </tr>
+          <tr>
+            <td>Fecha final de practicas:</td>
+            <td><input type="date" id="fechaFinal"></td>
+          </tr>
+          <tr>
+            <td>Nombre del proyecto:</td>
+            <td><input type="text" id="text"></td>
+          </tr>
+          <tr>
+            <td>Numero total de horas</td>
+            <td><input type="number" id="Numero"></td>
+          </tr>
+        </table>
+        <br>
+        <button type="button" onclick="validarDatos()">Enviar</button>
+        <button type="button" onclick="window.location.href='index4.html'">Ir a la pagina siguiente</button>  
+      </form> 
+      <img src="Eh.jpg" alt="Descripción de la imagen">     
+      <script src="validacion.js"></script>
+</html>

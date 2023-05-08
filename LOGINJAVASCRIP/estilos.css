@@ -1,0 +1,39 @@
+body {
+  background-image: url('Eh.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: auto;
+    color: rgb(16, 16, 17);
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] 
+  input[type="text"] 
+  input[type="text"] {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bb7a71;
+    margin-bottom: 20px;
+    
+  }
+  
+  input[type="submit"] {
+    background-color: #0d3f0f;
+    color: #8a7e15;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
